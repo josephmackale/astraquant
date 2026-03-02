@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+websockets
+redis>=4.2.0

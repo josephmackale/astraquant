@@ -1,0 +1,55 @@
+# Secrets
+
+.env
+.env.*
+config/ctrader/*
+!config/ctrader/.gitkeep
+
+# Logs
+
+logs/
+**/logs/
+
+# Runtime data
+
+data/
+storage/
+archive/
+
+# Database volumes/backups
+
+db/backups/
+postgres_data/
+redis_data/
+
+# Python cache
+
+**pycache**/
+*.pyc
+*.pyo
+
+# Docker overrides
+
+docker-compose.override.yml
+
+# OS junk
+
+.DS_Store
+Thumbs.db
+
+# Trade datasets (keep out of git)
+
+*.jsonl
+*.jsonl.gz
+*.csv
+
+# AI artifacts
+
+*.pt
+*.onnx
+*.model
+
+# Node / build (if ever used)
+
+node_modules/
+dist/
